@@ -2,7 +2,7 @@ import google.generativeai as genai
 import streamlit as st
 
 # Set up your Gemini API key
-gemini_api_key = "AIzaSyDDuAdDzhx2YW7qCEuKd_oukViQTX_616I"
+gemini_api_key = "GEMINI-API-KEY"    # Enter your Gemini API key here in inverted commas
 genai.configure(api_key=gemini_api_key)
 
 def fetch_recommendations(trip_preference, season):
